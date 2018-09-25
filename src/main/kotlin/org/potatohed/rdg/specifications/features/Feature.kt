@@ -1,4 +1,7 @@
 package org.potatohed.rdg.specifications.features
 
-interface Feature {
+import org.potatohed.rdg.objects.dungeon.Dungeon
+import org.potatohed.rdg.specifications.Specification
+
+interface Feature : Specification<Dungeon> {
 }

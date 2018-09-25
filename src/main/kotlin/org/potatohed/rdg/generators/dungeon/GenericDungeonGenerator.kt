@@ -5,5 +5,6 @@ import org.potatohed.rdg.specifications.Specification
 
 class GenericDungeonGenerator : DungeonGenerator {
     override fun generate(specs: Specification<Dungeon>): Dungeon {
+
     }
 }
